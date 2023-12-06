@@ -1,0 +1,29 @@
+.light-theme {
+  background-color: #fff;
+}
+
+.dark-theme {
+  background-color: #0d1117;
+  .search {
+    color: #fff !important;
+  }
+  .left-block {
+    background-color: #4f4f4f !important;
+    .temp-text {
+      &__day {
+        color: #fff !important;
+      }
+    }
+  }
+  .right-block {
+    background-color: #4f4f4f !important;
+    .weather-info-block {
+      &__text {
+        color: #fff !important;
+      }
+    }
+    .icon {
+      background: #fff !important;
+    }
+  }
+}
