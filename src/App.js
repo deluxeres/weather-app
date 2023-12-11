@@ -6,6 +6,7 @@ import "./index.css";
 import "./assets/scss/_header.scss";
 import "./assets/scss/_main.scss";
 import "./assets/scss/_theme.scss";
+import "./assets/scss/_media.scss";
 
 function App() {
   const [theme, setTheme] = useState(false);

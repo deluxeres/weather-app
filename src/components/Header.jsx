@@ -42,11 +42,12 @@ function Header({ setTheme }) {
     <>
       <div className="header">
         <div className="logo">
-          <Logo />
-          <span className="logo__text">REACT WEATHER</span>
-        </div>
-        <div className="navigate">
+          <div className="logo__block">
+            <Logo />
+            <span className="logo__text">DELUXENOK WEATHER</span>
+          </div>
           <div
+            className="logo__theme"
             style={{
               height: 35,
               cursor: "pointer",
@@ -56,6 +57,8 @@ function Header({ setTheme }) {
           >
             <Theme />
           </div>
+        </div>
+        <div className="navigate">
           <input
             className="search"
             placeholder="Введіть місто"

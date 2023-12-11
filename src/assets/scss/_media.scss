@@ -1,0 +1,47 @@
+@media screen and (max-width: 1330px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 5rem;
+    .left-block {
+      width: 100%;
+      height: auto;
+      .wrapper {
+        height: 70%;
+        .temp-info .main-label {
+          font-size: 20px;
+        }
+        .wrapper-weather-block .temp .temp-text {
+          font-size: 50px;
+        }
+        .wrapper-weather-block .temp .temp-text__day {
+          font-size: 29px;
+        }
+      }
+    }
+    .right-block {
+      width: 100%;
+      .worldIcon {
+        opacity: 0.5;
+      }
+      .wrapper {
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    gap: 40px;
+    .navigate {
+      margin: 0;
+    }
+  }
+}
